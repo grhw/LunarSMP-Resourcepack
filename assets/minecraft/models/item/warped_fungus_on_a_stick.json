@@ -15,6 +15,18 @@
                 "custom_model_data": 7274
             }, 
             "model": "minecraft:item/wardenbound_sword"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7261
+            }, 
+            "model": "minecraft:item/echo_bow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7262
+            }, 
+            "model": "minecraft:item/echo_bow_pull"
         }
     ]
 }
