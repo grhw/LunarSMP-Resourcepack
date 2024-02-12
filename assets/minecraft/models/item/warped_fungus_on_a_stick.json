@@ -6,6 +6,12 @@
     "overrides" : [
         {
             "predicate": {
+                "custom_model_data": 7273
+            }, 
+            "model": "minecraft:item/totem_of_nofall"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 7274
             }, 
             "model": "minecraft:item/wardenbound_sword"
