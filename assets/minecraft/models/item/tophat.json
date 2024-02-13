@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block",
+	"textures": {
+		"0": "item/tophat/toptop",
+		"1": "item/tophat/allleft",
+		"2": "item/tophat/bottomtop",
+		"particle": "item/tophat/toptop"
+	},
+	"elements": [
+		{
+			"from": [0, 12, 0],
+			"to": [16, 15, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 3], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [2, 15, 2],
+			"to": [14, 29, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 12, 14], "texture": "#1"},
+				"east": {"uv": [0, 0, 12, 14], "texture": "#1"},
+				"south": {"uv": [0, 0, 12, 14], "texture": "#1"},
+				"west": {"uv": [0, 0, 12, 14], "texture": "#1"},
+				"up": {"uv": [0, 0, 12, 12], "texture": "#0"},
+				"down": {"uv": [0, 0, 12, 12], "texture": "#missing"}
+			}
+		}
+	],
+	"overrides": [
+		{"predicate": {"custom_model_data": 7273}, "model": "minecraft:item/totem_of_nofall"},
+		{"predicate": {"custom_model_data": 7274}, "model": "minecraft:item/wardenbound_sword"},
+		{"predicate": {"custom_model_data": 7261}, "model": "minecraft:item/echo_bow"},
+		{"predicate": {"custom_model_data": 7262}, "model": "minecraft:item/echo_bow_pull"}
+	]
+}

@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:item/diamond_leggings",
+    "parent": "minecraft:item/handheld",
     "textures": {
         "layer0": "minecraft:item/warped_fungus_on_a_stick"
     },
@@ -27,6 +27,18 @@
                 "custom_model_data": 7262
             }, 
             "model": "minecraft:item/echo_bow_pull"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7281
+            }, 
+            "model": "minecraft:item/tophat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7282
+            }, 
+            "model": "minecraft:item/devhat"
         }
     ]
 }

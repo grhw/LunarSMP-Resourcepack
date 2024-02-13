@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block",
+	"textures": {
+		"0": "item/devhat/text",
+		"1": "item/devhat/color",
+		"particle": "item/devhat/text"
+	},
+	"elements": [
+		{
+			"from": [0, 11, 1],
+			"to": [16, 13, 9],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2], "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 2], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#missing"},
+				"west": {"uv": [0, 0, 8, 2], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 13, 2],
+			"to": [16, 19, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 14, 9], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 9], "texture": "#1"},
+				"west": {"uv": [0, 0, 14, 9], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 14], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, 19, 3],
+			"to": [15, 20, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 14, 1], "texture": "#1"},
+				"east": {"uv": [0, 0, 12, 1], "texture": "#1"},
+				"south": {"uv": [0, 0, 14, 1], "texture": "#1"},
+				"west": {"uv": [0, 0, 12, 1], "texture": "#1"},
+				"up": {"uv": [0, 0, 14, 12], "texture": "#1"},
+				"down": {"uv": [0, 0, 14, 12], "texture": "#missing"}
+			}
+		}
+	],
+	"overrides": [
+		{"predicate": {"custom_model_data": 7273}, "model": "minecraft:item/totem_of_nofall"},
+		{"predicate": {"custom_model_data": 7274}, "model": "minecraft:item/wardenbound_sword"},
+		{"predicate": {"custom_model_data": 7261}, "model": "minecraft:item/echo_bow"},
+		{"predicate": {"custom_model_data": 7262}, "model": "minecraft:item/echo_bow_pull"}
+	]
+}
