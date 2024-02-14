@@ -6,18 +6,6 @@
     "overrides" : [
         {
             "predicate": {
-                "custom_model_data": 7273
-            }, 
-            "model": "minecraft:item/totem_of_nofall"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 7274
-            }, 
-            "model": "minecraft:item/wardenbound_sword"
-        },
-        {
-            "predicate": {
                 "custom_model_data": 7261
             }, 
             "model": "minecraft:item/echo_bow"
@@ -30,6 +18,18 @@
         },
         {
             "predicate": {
+                "custom_model_data": 7273
+            }, 
+            "model": "minecraft:item/totem_of_nofall"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7274
+            }, 
+            "model": "minecraft:item/wardenbound_sword"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 7281
             }, 
             "model": "minecraft:item/tophat"
@@ -39,6 +39,18 @@
                 "custom_model_data": 7282
             }, 
             "model": "minecraft:item/devhat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7283
+            }, 
+            "model": "minecraft:item/featherhat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7284
+            }, 
+            "model": "minecraft:item/witchhat"
         }
     ]
 }
