@@ -1,10 +1,9 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "minecraft:block",
 	"textures": {
-		"0": "item/devhat/text",
-		"1": "item/devhat/color",
-		"particle": "item/devhat/text"
+		"0": "item/cosmetic/devhat/text",
+		"1": "item/cosmetic/devhat/color",
+		"particle": "item/cosmetic/devhat/text"
 	},
 	"elements": [
 		{

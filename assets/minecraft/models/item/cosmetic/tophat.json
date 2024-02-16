@@ -1,11 +1,10 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "minecraft:block",
 	"textures": {
-		"0": "item/tophat/toptop",
-		"1": "item/tophat/allleft",
-		"2": "item/tophat/bottomtop",
-		"particle": "item/tophat/toptop"
+		"0": "item/cosmetic/tophat/toptop",
+		"1": "item/cosmetic/tophat/allleft",
+		"2": "item/cosmetic/tophat/bottomtop",
+		"particle": "item/cosmetic/tophat/toptop"
 	},
 	"elements": [
 		{

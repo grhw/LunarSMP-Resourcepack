@@ -1,10 +1,9 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "minecraft:block",
 	"textures": {
-		"0": "item/witch/color",
-		"1": "item/witch/witch",
-		"particle": "item/witch/color"
+		"0": "item/cosmetic/witch/color",
+		"1": "item/cosmetic/witch/witch",
+		"particle": "item/cosmetic/witch/color"
 	},
 	"elements": [
 		{

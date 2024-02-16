@@ -1,11 +1,10 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "minecraft:block",
 	"textures": {
-		"0": "item/featherhat/feather",
-		"1": "item/featherhat/color",
-		"2": "item/featherhat/lefttop",
-		"particle": "item/featherhat/feather"
+		"0": "item/cosmetic/featherhat/feather",
+		"1": "item/cosmetic/featherhat/color",
+		"2": "item/cosmetic/featherhat/lefttop",
+		"particle": "item/cosmetic/featherhat/feather"
 	},
 	"elements": [
 		{

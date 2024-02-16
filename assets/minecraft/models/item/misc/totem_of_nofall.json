@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/handheld",
     "textures": {
-        "layer0": "item/echo_bow"
+        "layer0": "item/misc/totem_of_nofall"
     }
 }
