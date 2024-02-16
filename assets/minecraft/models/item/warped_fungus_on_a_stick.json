@@ -58,11 +58,24 @@
             }, 
             "model": "minecraft:item/weapons/wardenbound_sword"
         },
+        
         {
             "predicate": {
                 "custom_model_data": 9003001
             }, 
-            "model": "minecraft:item/weapons/burning_axe"
+            "model": "minecraft:item/weapons/burning_axe/notburning"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9003002
+            }, 
+            "model": "minecraft:item/weapons/burning_axe/notburning"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9003003
+            }, 
+            "model": "minecraft:item/weapons/burning_axe/notburning"
         }
     ]
 }
