@@ -1,4 +1,4 @@
-name: Create Release
+name: Create Release Zip
 
 on:
   push:
@@ -6,9 +6,9 @@ on:
       - main
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -16,53 +16,8 @@ jobs:
     - name: Zip source code
       run: zip -r latest.zip .
       
-    - name: Get commit hash
-      run: echo "::set-output name=commit_hash::$(git rev-parse --short HEAD)"
-      id: commit_hash
-      
     - name: Upload release artifact
       uses: actions/upload-artifact@v2
       with:
-        name: release-$(( steps.commit_hash.outputs.commit_hash ))
+        name: release-artifact
         path: latest.zip
-        
-    - name: Delete existing release
-      id: delete_release
-      uses: "marvinpinto/action-automatic-releases@latest"
-      with:
-        args: delete --tag "latest" --token ${{ secrets.GITHUB_TOKEN }}
-      continue-on-error: true
-      
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-      with:
-        tag_name: latest
-        release_name: Release
-        body: |
-          Source code for the latest commit.
-        draft: false
-        prerelease: false
-        
-    - name: Get Release ID
-      id: get_release_id
-      run: echo "::set-output name=release_id::${{ steps.create_release.outputs.id }}"
-      
-    - name: Download Artifact
-      uses: actions/download-artifact@v2
-      with:
-        name: release-$(( steps.commit_hash.outputs.commit_hash ))
-        path: release
-        
-    - name: Upload Artifact to Release
-      id: upload_release_asset
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./release/latest.zip
-        asset_name: latest.zip
-        asset_content_type: application/zip
