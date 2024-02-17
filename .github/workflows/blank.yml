@@ -1,0 +1,27 @@
+name: Create Release Zip
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      
+    - name: Zip source code
+      run: zip -r latest.zip *
+      
+    - name: Get commit hash
+      run: echo "::set-output name=commit_hash::$(git rev-parse --short HEAD)"
+      id: commit_hash
+      
+    - name: Upload release artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: release-$(( steps.commit_hash.outputs.commit_hash ))
+        path: latest.zip
