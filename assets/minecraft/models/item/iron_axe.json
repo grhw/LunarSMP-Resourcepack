@@ -1,0 +1,26 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/iron_axe"
+    },
+    "overrides" : [
+        {
+            "predicate": {
+                "custom_model_data": 9003001
+            }, 
+            "model": "minecraft:item/weapons/burning_axe/notburning"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9003002
+            }, 
+            "model": "minecraft:item/weapons/burning_axe/burning"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9003003
+            }, 
+            "model": "minecraft:item/weapons/burning_axe/dragon"
+        }
+    ]
+}

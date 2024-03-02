@@ -30,52 +30,12 @@
         },
 
 
-
-        {
-            "predicate": {
-                "custom_model_data": 9001001
-            }, 
-            "model": "minecraft:item/weapons/echo_bow/echo_bow"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 9001002
-            }, 
-            "model": "minecraft:item/weapons/echo_bow/echo_bow_pull"
-        },
-
-
         
         {
             "predicate": {
                 "custom_model_data": 9002001
             }, 
             "model": "minecraft:item/misc/totem_of_nofall"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 9002002
-            }, 
-            "model": "minecraft:item/weapons/wardenbound_sword"
-        },
-        
-        {
-            "predicate": {
-                "custom_model_data": 9003001
-            }, 
-            "model": "minecraft:item/weapons/burning_axe/notburning"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 9003002
-            }, 
-            "model": "minecraft:item/weapons/burning_axe/burning"
-        },
-        {
-            "predicate": {
-                "custom_model_data": 9003003
-            }, 
-            "model": "minecraft:item/weapons/burning_axe/dragon"
         }
     ]
 }
