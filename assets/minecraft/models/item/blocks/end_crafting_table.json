@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/head",
+	"textures": {
+		"0": "item/blocks/ect/crafting_table_front",
+		"1": "item/blocks/ect/crafting_table_side",
+		"2": "item/blocks/ect/crafting_table_top",
+		"particle": "item/blocks/ect/crafting_table_front"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"translation": [0, 0, -16],
+			"scale": [2.00391, 2.00391, 2.00391]
+		}
+	}
+}

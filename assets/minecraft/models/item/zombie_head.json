@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/zombie_head"
+    },
+    "overrides" : [
+        {
+            "predicate": {
+                "custom_model_data": 7001000
+            }, 
+            "model": "minecraft:item/blocks/end_crafting_table"
+        }
+    ]
+}
