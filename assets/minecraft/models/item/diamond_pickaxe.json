@@ -6,7 +6,7 @@
     "overrides" : [
         {
             "predicate": {
-                "custom_model_data": 9003004
+                "custom_model_data": 9003005
             }, 
             "model": "minecraft:item/misc/end_pickaxe"
         }
