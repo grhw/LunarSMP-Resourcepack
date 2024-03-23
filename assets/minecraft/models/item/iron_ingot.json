@@ -6,7 +6,7 @@
     "overrides" : [
         {
             "predicate": {
-                "custom_model_data": 9002005
+                "custom_model_data": 1942474979
             }, 
             "model": "minecraft:item/misc/end_ingot"
         }

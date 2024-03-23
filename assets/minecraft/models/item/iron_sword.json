@@ -6,7 +6,7 @@
     "overrides" : [
         {
             "predicate": {
-                "custom_model_data": 9002003
+                "custom_model_data": 650071783
             }, 
             "model": "minecraft:item/weapons/witherbane"
         }

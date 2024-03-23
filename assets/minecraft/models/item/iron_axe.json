@@ -6,19 +6,19 @@
     "overrides" : [
         {
             "predicate": {
-                "custom_model_data": 9003001
+                "custom_model_data": 9008001
             }, 
             "model": "minecraft:item/weapons/burning_axe/notburning"
         },
         {
             "predicate": {
-                "custom_model_data": 9003002
+                "custom_model_data": 9008002
             }, 
             "model": "minecraft:item/weapons/burning_axe/burning"
         },
         {
             "predicate": {
-                "custom_model_data": 9003003
+                "custom_model_data": 9008003
             }, 
             "model": "minecraft:item/weapons/burning_axe/dragon"
         }

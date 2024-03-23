@@ -50,14 +50,14 @@
 
         {
             "predicate": {
-                "custom_model_data": 9001001
+                "custom_model_data": 681606320
             },
             "model": "item/weapons/echo_bow/echo_bow"
         },
         {
             "predicate": {
                 "pulling": 1,
-                "custom_model_data": 9001001
+                "custom_model_data": 681606320
             },
             "model": "item/weapons/echo_bow/pulling_0"
         },
@@ -65,7 +65,7 @@
             "predicate": {
                 "pulling": 1,
                 "pull": 0.65,
-                "custom_model_data": 9001001
+                "custom_model_data": 681606320
             },
             "model": "item/weapons/echo_bow/pulling_1"
         },
@@ -73,7 +73,7 @@
             "predicate": {
                 "pulling": 1,
                 "pull": 0.9,
-                "custom_model_data": 9001001
+                "custom_model_data": 681606320
             },
             "model": "item/weapons/echo_bow/pulling_2"
         }
