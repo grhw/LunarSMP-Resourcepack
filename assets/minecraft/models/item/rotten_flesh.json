@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/rotten_flesh"
+    },
+    "overrides" : [
+        {
+            "predicate": {
+                "custom_model_data": 958471192
+            }, 
+            "model": "minecraft:item/misc/mana_food"
+        }
+    ]
+}

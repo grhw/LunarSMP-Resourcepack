@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+    "overrides" : [
+        {
+            "predicate": {
+                "custom_model_data": 50583041
+            }, 
+            "model": "minecraft:item/misc/small_potion/fly"
+        },{
+            "predicate": {
+                "custom_model_data": 1063827259
+            }, 
+            "model": "minecraft:item/misc/small_potion/mana"
+        }
+    ]
+}

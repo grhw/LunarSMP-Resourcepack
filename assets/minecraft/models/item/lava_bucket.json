@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/lava_bucket"
+    },
+    "overrides" : [
+        {
+            "predicate": {
+                "custom_model_data": 817908683
+            }, 
+            "model": "minecraft:item/misc/small_potion/lava"
+        }
+    ]
+}
