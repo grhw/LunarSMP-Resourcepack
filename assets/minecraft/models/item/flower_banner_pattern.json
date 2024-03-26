@@ -1,0 +1,19 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/flower_banner_pattern"
+    },
+    "overrides" : [
+        {
+            "predicate": {
+                "custom_model_data": 39730687
+            }, 
+            "model": "minecraft:item/misc/scrolls/empty"
+        },{
+            "predicate": {
+                "custom_model_data": 219896586
+            }, 
+            "model": "minecraft:item/misc/scrolls/fire_scroll"
+        }
+    ]
+}
