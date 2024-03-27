@@ -12,9 +12,20 @@
             "model": "minecraft:item/misc/small_potion/fly"
         },{
             "predicate": {
+                "custom_model_data": 67167153
+            }, 
+            "model": "minecraft:item/misc/small_potion/obsidian"
+        },{
+            "predicate": {
+                "custom_model_data": 746571248
+            }, 
+            "model": "minecraft:item/misc/small_potion/void"
+        },{
+            "predicate": {
                 "custom_model_data": 1063827259
             }, 
             "model": "minecraft:item/misc/small_potion/mana"
         }
+        
     ]
 }

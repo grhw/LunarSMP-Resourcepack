@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "item/trident"
+    },
+    "overrides" : [
+        {
+            "predicate": {
+                "custom_model_data": 265780189
+            }, 
+            "model": "minecraft:item/misc/spear_of_justice"
+        }
+        
+    ]
+}
