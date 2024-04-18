@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:item/handheld_rod",
+    "textures": {
+        "layer0": "minecraft:item/cod_spawn_egg"
+    },
+    "overrides" : [
+        {
+            "predicate": {
+                "custom_model_data": 123025363
+            }, 
+            "model": "minecraft:item/misc/mana_box"
+        }
+    ]
+}
